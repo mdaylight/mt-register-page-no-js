@@ -1,0 +1,172 @@
+/* 全局 */
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 头部 */
+.g-header {
+    width: 100vw;
+    height: 67px;
+}
+
+.g-header img {
+    width: 150px;
+    height: 55px;
+    margin-left: 73px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.g-header .u-btn-logn {
+    margin-right: 87px;
+    margin-top: 30px;
+}
+
+.g-header .u-btn-logn input {
+    width: 58px;
+    height: 30px;
+    border: 0px;
+    background-color: #ffc200;
+    border-radius: 0.2em;
+}
+
+.g-header hr {
+    border-top: 2px solid #d8d8d8;
+}
+
+
+/* 表单 */
+.g-form {
+    margin-top: 58px;
+    margin-bottom: 34.5px;
+}
+
+.g-form .m-form {
+    margin-left: 320px;
+}
+
+/* u-text 通用属性 */
+.g-form .u-text {
+    margin-top: 30px;
+}
+
+.g-form .u-text input {
+    width: 354px;
+    height: 48px;
+    border-color: #f76121;
+    border-style: double;
+    border-width: 1px;
+}
+
+.g-form .u-span {
+    display: inline-block;
+    width: 100px;
+    height: 48px;
+    font-size: 13px;
+}
+
+.g-form .u-span span {
+    text-align: right;
+    margin-left: -12.5px;
+    color: #333333;
+}
+
+.g-form .u-waring {
+    margin-left: 32.5px;
+    color: #737373;
+}
+
+.g-form .u-waring span {
+    font-size: 11px;
+}
+
+.g-form .u-content {
+    margin-left: 105px;
+    display: block;
+}
+
+.g-form .u-content.smscode {
+     margin-bottom: -15px;
+}
+.g-form .u-content.statsbar {
+    margin-top: -10px;
+}
+.g-form .u-content span {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.g-form .u-content span[id="1"] {
+    color: #fe8c00;
+}
+
+.g-form .u-content div {
+    display: inline-block;
+    background-color: #eeeeee;
+    width: 115px;
+    height: 24px;
+    text-align: center;
+    color: #d8d8d8;
+}
+.g-form .button {
+    margin-top: 20px;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
+.g-form .button #submit {
+    width: 354px;
+    height: 40px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    background-color: #ffd100;
+    text-align: center;
+    display: inline-block;
+}
+
+.accept-ulp {
+    display: inline-flex;
+    font-size: 13px;
+    width: 340px;
+    height: 50px;
+    margin-left: 105px;
+    color: rgba(0,0,0,0.50);
+}
+
+.accept-ulp p {
+    margin-left: 10px;
+}
+
+.accept-ulp p a {
+    color: #ffa753;
+    font-weight: bolder;
+}
+
+
+/* 尾部 */
+.g-footer hr {
+    border-top: 1px solid #d8d8d8;
+}
+
+.g-footer p {
+    margin-top: 27.5px;
+    font-size: 13px;
+    text-align: center;
+    color: #999;
+}
