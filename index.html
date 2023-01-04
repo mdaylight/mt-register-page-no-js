@@ -9,11 +9,6 @@
     <title>美团注册页面</title>
 </head>
 
-<!--
-    1.完成布局规划  
-    上,中,下结构
--->
-
 <body>
     <div class="g-main">
         <div class="g-header">
@@ -31,8 +26,8 @@
                         <div class="u-span">
                             <span class="u-span">手机号</span>
                         </div>
-                        <input type="text">
-                        <span class="u-waring" style="visibility: hidden;">
+                        <input type="text" name="phone-number">
+                        <span class="u-waring u-waring-tel" style="visibility: hidden;">
                             <span>请输入您的手机号码</span>
                         </span>
                         <div class="u-content smscode">
@@ -43,8 +38,8 @@
                         <div class="u-span">
                             <span class="u-span">短信动态码</span>
                         </div>
-                        <input type="text">
-                        <span class="u-waring" style="visibility: hidden;">                          
+                        <input type="text" name="smscode">
+                        <span class="u-waring u-waring-smscode" style="visibility: hidden;">
                             <span>请输入短信动态码</span>
                         </span>
                         <div class="u-content">
@@ -54,8 +49,8 @@
                         <div class="u-span">
                             <span class="u-span">创建密码</span>
                         </div>
-                        <input type="text">
-                        <span class="u-waring" style="visibility: hidden;">                            
+                        <input type="password" name="password">
+                        <span class="u-waring u-waring-passwd" style="visibility: hidden;">
                             <span>请填写密码</span>
                         </span>
                         <div class="u-content statsbar">
@@ -73,14 +68,14 @@
                             <div class="u-span">
                                 <span class="u-span">确认密码</span>
                             </div>
-                            <input type="text">
-                            <span class="u-waring" style="visibility: hidden;">                                
+                            <input type="password" name="confirm-password">
+                            <span class="u-waring u-waring-confirm-passwd" style="visibility: hidden;">
                                 <span>请再次输入密码</span>
                             </span>
                         </div>
                     </div>
                     <div class="button">
-                        <button id="submit" type="button">完成注册并登录</button>
+                        <button type="button" id="submit" name="submit">完成注册并登录</button>
                     </div>
                     <div class="accept-ulp">
                         <input type="checkbox" id="accept" name="accept" value="accept">
