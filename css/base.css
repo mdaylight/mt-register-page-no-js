@@ -180,6 +180,22 @@ a {
     outline: none;
 }
 
+.u-waring-tel {
+    visibility: hidden;
+}
+
+.u-waring-smscode {
+    visibility: hidden;
+}
+
+.u-waring-passwd {
+    visibility: hidden;
+}
+
+.u-waring-confirm-passwd {
+    visibility: hidden;
+}
+
 
 /* 尾部 */
 .g-footer {
